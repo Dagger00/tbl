@@ -1,0 +1,24 @@
+.header {
+    font-size: 24px;
+    margin: auto;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo__img {
+    width: 200px;
+}
+.nav-list__link {
+    text-decoration: none;
+    color: #000000;
+    margin-right: 30px;
+}

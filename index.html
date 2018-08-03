@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Аренда спецтехники</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header/header.css">
+    <link rel="stylesheet" href="css/offer/offer.css">
+    <link rel="stylesheet" href="css/conditions/conditions.css">
+    <link rel="stylesheet" href="css/footer/footer.css">
+    <link rel="stylesheet" href="css/container/container.css">
+    <link rel="stylesheet" href="css/feedback/feedback.css">
+    <link rel="stylesheet" href="css/contacts/contacts.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&amp;subset=cyrillic" rel="stylesheet">
+
+
+</head>
+<body>
+<header class="header">
+    <div class="header__inner">
+        <div class="logo">
+            <img src="img/Logotipy.jpg" alt="Логотип" class="logo__img">
+        </div>
+        <nav class="header__nav">
+            <ul class="nav-list">
+                <li class="nav-list__item"><a href="#conditions" class="nav-list__link">Условия</a></li>
+                <li class="nav-list__item"><a href="#feedback" class="nav-list__link">Отзывы</a></li>
+                <li class="nav-list__item"><a href="#contacts" class="nav-list__link">Контакты</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<div class="container" id="app">
+    <section class="offer">
+        <div class="offer__inner">
+            <h1 class="offer__title">{{offerTitle}}</h1>
+            <p class="offer__text">Собственный автопарк и сотни партнёров.</p>
+        </div>
+    </section>
+
+    <section class="conditions" id="conditions">
+        <div class="conditions__inner">
+            <div class="conditions__item">
+                <div class="conditions__image conditions__image_num_1"></div>
+                <h2 class="conditions__title">Кран-иван!</h2>
+                <ul class="description">
+                    <li class="description__item"><span>Вылет стрелы</span> <span>12, 16, 18, 22 м.</span></li>
+                    <li class="description__item"><span>Грузоподъемность кузова</span> <span>3-20 т.</span></li>
+                    <li class="description__item"><span>Грузоподъемность стрелы</span> <span>2-25 т.</span></li>
+                    <li class="description__item"><span>Длина кузова</span> <span>3-12 м.</span></li>
+                    <li class="description__item"><span>Тип проходимости:</span> <span>колесный</span></li>
+                    <li class="description__item"><span>Ширина кузова</span> <span>2,35 - 2,5 м.</span></li>
+                </ul>
+                <button class="conditions__button">Заказать</button>
+            </div>
+            <div class="conditions__item">
+                <div class="conditions__image conditions__image_num_2"></div>
+                <h2 class="conditions__title">Кран-иван!</h2>
+                <ul class="description">
+                    <li class="description__item"><span>Вылет стрелы</span> <span>12, 16, 18, 22 м.</span></li>
+                    <li class="description__item"><span>Грузоподъемность кузова</span> <span>3-20 т.</span></li>
+                    <li class="description__item"><span>Грузоподъемность стрелы</span> <span>2-25 т.</span></li>
+                    <li class="description__item"><span>Длина кузова</span> <span>3-12 м.</span></li>
+                    <li class="description__item"><span>Тип проходимости:</span> <span>колесный</span></li>
+                    <li class="description__item"><span>Ширина кузова</span> <span>2,35 - 2,5 м.</span></li>
+                </ul>
+                <button class="conditions__button">Заказать</button>
+            </div>
+            <div class="conditions__item">
+                <div class="conditions__image conditions__image_num_3"></div>
+                <h2 class="conditions__title">Кран-иван!</h2>
+                <ul class="description">
+                    <li class="description__item"><span>Вылет стрелы</span> <span>12, 16, 18, 22 м.</span></li>
+                    <li class="description__item"><span>Грузоподъемность кузова</span> <span>3-20 т.</span></li>
+                    <li class="description__item"><span>Грузоподъемность стрелы</span> <span>2-25 т.</span></li>
+                    <li class="description__item"><span>Длина кузова</span> <span>3-12 м.</span></li>
+                    <li class="description__item"><span>Тип проходимости:</span> <span>колесный</span></li>
+                    <li class="description__item"><span>Ширина кузова</span> <span>2,35 - 2,5 м.</span></li>
+                </ul>
+                <button class="conditions__button">Заказать</button>
+            </div>
+            <div class="conditions__item">
+                <div class="conditions__image conditions__image_num_3"></div>
+                <h2 class="conditions__title">Кран-иван!</h2>
+                <ul class="description">
+                    <li class="description__item"><span>Вылет стрелы</span> <span>12, 16, 18, 22 м.</span></li>
+                    <li class="description__item"><span>Грузоподъемность кузова</span> <span>3-20 т.</span></li>
+                    <li class="description__item"><span>Грузоподъемность стрелы</span> <span>2-25 т.</span></li>
+                    <li class="description__item"><span>Длина кузова</span> <span>3-12 м.</span></li>
+                    <li class="description__item"><span>Тип проходимости:</span> <span>колесный</span></li>
+                    <li class="description__item"><span>Ширина кузова</span> <span>2,35 - 2,5 м.</span></li>
+                </ul>
+                <button class="conditions__button">Заказать</button>
+            </div>
+            <div class="conditions__item">
+                <div class="conditions__image conditions__image_num_3"></div>
+                <h2 class="conditions__title">Кран-иван!</h2>
+                <ul class="description">
+                    <li class="description__item"><span>Вылет стрелы</span> <span>12, 16, 18, 22 м.</span></li>
+                    <li class="description__item"><span>Грузоподъемность кузова</span> <span>3-20 т.</span></li>
+                    <li class="description__item"><span>Грузоподъемность стрелы</span> <span>2-25 т.</span></li>
+                    <li class="description__item"><span>Длина кузова</span> <span>3-12 м.</span></li>
+                    <li class="description__item"><span>Тип проходимости:</span> <span>колесный</span></li>
+                    <li class="description__item"><span>Ширина кузова</span> <span>2,35 - 2,5 м.</span></li>
+                </ul>
+                <button class="conditions__button">Заказать</button>
+            </div>
+            <div class="conditions__item">
+                <div class="conditions__image conditions__image_num_3"></div>
+                <h2 class="conditions__title">Кран-иван!</h2>
+                <ul class="description">
+                    <li class="description__item"><span>Вылет стрелы</span> <span>12, 16, 18, 22 м.</span></li>
+                    <li class="description__item"><span>Грузоподъемность кузова</span> <span>3-20 т.</span></li>
+                    <li class="description__item"><span>Грузоподъемность стрелы</span> <span>2-25 т.</span></li>
+                    <li class="description__item"><span>Длина кузова</span> <span>3-12 м.</span></li>
+                    <li class="description__item"><span>Тип проходимости:</span> <span>колесный</span></li>
+                    <li class="description__item"><span>Ширина кузова</span> <span>2,35 - 2,5 м.</span></li>
+                </ul>
+                <button class="conditions__button">Заказать</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="feedback" id="feedback">
+        <div class="feedback__inner">
+            <h2 class="feedback__title">Отзывы наших клиентов</h2>
+            <div class="feedback__items">
+                <div class="feedback__item">
+                    <p class="feedback__text">{{feedback.f1.text}}</p>
+                    <div class="feedback__photo feedback__photo_1"></div>
+                    <p class="feedback__name">{{feedback.f1.name}}</p>
+                </div>
+            </div>
+            <div class="feedback__dots">
+                <div class="feedback__dot feedback__dot_active"></div>
+                <div class="feedback__dot"></div>
+                <div class="feedback__dot"></div>
+            </div>
+
+            <div class="feedback__buttons-container">
+
+                <div class="feedback__button-container feedback__button-container_left">
+                    <div class="feedback__mini-container feedback__mini-container_left">
+                        <div class="feedback__button feedback__button_left"></div>
+
+                    </div>
+                </div>
+                <div class="feedback__button-container feedback__button-container_right">
+                    <div class="feedback__mini-container feedback__mini-container_right">
+                        <div class="feedback__button feedback__button_right"></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-company" id="about-company">
+        <div class="about-company__inner">
+
+        </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+        <div class="contacts__inner">
+            <h2 class="contacts__title">Наши контакты</h2>
+            <div class="contacts__info">
+                <div class="contacts__text">
+                    <p class="contacts__phone">Телефон: +7 926 478 72 80</p>
+                    <p class="contacts__email">Почта: <a class="contacts__link" href="mailto:hello@firm.com">hello@firm.com</a>
+                    </p>
+                    <p class="contacts__address">Пушкинская 13, Королёв</p>
+                </div>
+                <form class="contacts__form">
+                    <label>
+                        <input type="tel" class="contacts__input" datatype="phone">
+                    </label>
+                    <label>
+                        <input type="text" class="contacts__input" data-type="text">
+                    </label>
+                    <label>
+                        <textarea type="text" class="contacts__input contacts__input_textarea"
+                                  data-type="text"> </textarea>
+                    </label>
+                    <button class="contacts__button" type="submit">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</div>
+<script>
+    var app = new Vue({
+        el: "#app",
+        data: {
+            offerTitle: "Кран-манипулятор на вашем объекте через день!",
+            feedback: {
+                f1: {
+                    text: 'Не ожидал, что в такие короткие сроки можно организовать поставку техники к себе на объект',
+                    photo: '',
+                    name: 'Агарков Максим'
+                },
+                f2: {
+                    text: 'Inshalla brat',
+                    photo: '',
+                    name: 'Zeev Gershenzon'
+                },
+                f3: {
+                    text: 'Не ожидал, что в такие короткие сроки можно организовать поставку техники к себе на объект',
+                    photo: '',
+                    name: 'Агарков Максим'
+                }
+            }
+        },
+        created: function () {
+            if (location.href.includes('ekskavator')) {
+                this.offerTitle = 'Экскаватор на вашем объекте через день!';
+                document.getElementsByClassName('conditions__image_num_1').item(0).style.backgroundImage = "url('img/ekskavator/ekskavator1.jpg')";
+                document.getElementsByClassName('conditions__image_num_2').item(0).style.backgroundImage = "url('img/ekskavator/ekskavator2.jpg')";
+                document.getElementsByClassName('conditions__image_num_3').item(0).style.backgroundImage = "url('img/ekskavator/ekskavator3.jpg')";
+            }
+            if (location.href.includes('kran-manipulator')) {
+                this.offerTitle = 'Кран-манипулятор на вашем объекте через день!';
+                document.getElementsByClassName('conditions__image_num_1').item(0).style.backgroundImage = "url('img/kran-manipulator/kran-manipulyator1.jpg')";
+                document.getElementsByClassName('conditions__image_num_2').item(0).style.backgroundImage = "url('img/kran-manipulator/kran-manipulyator2.jpg')";
+                document.getElementsByClassName('conditions__image_num_3').item(0).style.backgroundImage = "url('img/kran-manipulator/kran-manipulyator3.jpg')";
+            }
+            if (location.href.includes('avtokran')) {
+                this.offerTitle = 'Автокран на вашем объекте через день!';
+                document.getElementsByClassName('conditions__image_num_1').item(0).style.backgroundImage = "url('img/avtokran/avtokran1.jpg')";
+                document.getElementsByClassName('conditions__image_num_2').item(0).style.backgroundImage = "url('img/avtokran/avtokran2.jpg')";
+                document.getElementsByClassName('conditions__image_num_3').item(0).style.backgroundImage = "url('img/avtokran/avtokran3.jpg')";
+            }
+        },
+        methods: {
+            slide: function (event) {
+
+            }
+        }
+    })
+</script>
+</body>
+</html>

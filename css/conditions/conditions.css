@@ -1,0 +1,104 @@
+.conditions {
+}
+
+.conditions__inner {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 180px;
+    padding-bottom: 120px;
+}
+
+.conditions__item {
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.conditions__image {
+    width: 450px;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.conditions__image.conditions__image_num_1 {
+    background-image: url(../../img/kran-manipulator/kran-manipulyator1.jpg);
+}
+
+.conditions__image.conditions__image_num_2 {
+    background-image: url(../../img/kran-manipulator/kran-manipulyator2.jpg);
+}
+
+.conditions__image.conditions__image_num_3 {
+    background-image: url(../../img/kran-manipulator/kran-manipulyator3.jpg);
+}
+
+.conditions__title {
+    padding: 0;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.description {
+    position: relative;
+    list-style: none;
+    padding: 0;
+    width: 400px;
+    min-height: 90px;
+    width: 450px;
+}
+
+.description__item {
+    position: relative;
+    line-height: 25px;
+}
+.description__item span:nth-child(n) {
+    display: inline-block;
+    background: #fff;
+    position: relative;
+    z-index: 10;
+    padding: 0 3px;
+    font-weight: 300;
+}
+.description__item span:nth-child(2n) {
+    font-weight: 500;
+    float: right;
+    width: 115px;
+    text-align: left;
+    display: inline-block;
+    background: #fff;
+    position: relative;
+    z-index: 10;
+    padding: 0 3px;
+    white-space: nowrap;
+}
+.description__item::before {
+    border-bottom: 1px solid #ebebeb;
+    display: inline-block;
+    content: '';
+    width: 100%;
+    position: absolute;
+    bottom: 7px;
+    box-sizing: border-box;
+}
+
+.conditions__button {
+    background-color: #eb633d;
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    cursor: pointer;
+    font-weight: 700;
+    color: #ffffff;
+
+}
+
