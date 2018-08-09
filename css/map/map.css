@@ -1,0 +1,16 @@
+.map {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.map__inner {
+    width: 100%;
+}
+
+.map__title {
+    width: 100%;
+    text-align: center;
+    font-size: 42px;
+    line-height: 1.23;
+
+}

@@ -57,14 +57,15 @@
     position: relative;
     line-height: 25px;
 }
+
 .description__item span:nth-child(n) {
     display: inline-block;
     background: #fff;
     position: relative;
-    z-index: 10;
     padding: 0 3px;
     font-weight: 300;
 }
+
 .description__item span:nth-child(2n) {
     font-weight: 500;
     float: right;
@@ -73,10 +74,10 @@
     display: inline-block;
     background: #fff;
     position: relative;
-    z-index: 10;
     padding: 0 3px;
     white-space: nowrap;
 }
+
 .description__item::before {
     border-bottom: 1px solid #ebebeb;
     display: inline-block;
@@ -88,10 +89,13 @@
 }
 
 .conditions__button {
+    padding-top: 10px;
+    text-decoration: none;
+    text-align: center;
     background-color: #eb633d;
     border: none;
     width: 120px;
-    height: 40px;
+    height: 30px;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
     border-top-right-radius: 6px;
@@ -99,6 +103,31 @@
     cursor: pointer;
     font-weight: 700;
     color: #ffffff;
-
 }
 
+.popup {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+    text-align: center;
+}
+
+.popup_bg {
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    z-index: 11;
+    height: 100%;
+    width: 100%;
+}
+
+.popup_img {
+    position: relative;
+    margin: 0 auto;
+    z-index: 12;
+    max-height: 94%;
+    max-width: 94%;
+    margin: 7% 0 0 0;
+}
