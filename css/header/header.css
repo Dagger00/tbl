@@ -22,3 +22,18 @@
     color: #000000;
     margin-right: 30px;
 }
+
+
+@media (max-width: 570px) {
+
+    .header {
+        font-size: 18px;
+        margin: auto;
+    }
+
+    .nav-list__link {
+        text-decoration: none;
+        color: #000000;
+    }
+
+}
