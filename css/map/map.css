@@ -14,3 +14,11 @@
     line-height: 1.23;
 
 }
+
+.map__link {
+    text-decoration: none;
+    color: #ff8562;
+}
+.map__link:hover {
+    border-bottom: 3px solid #ff8562;
+}
