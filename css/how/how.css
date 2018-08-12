@@ -38,6 +38,12 @@
     border-radius: 10%;
     margin-top: 80px;
 }
+
+.how__img.how__img_long {
+    width: 70px;
+    height: 60px;
+
+}
 .how__text {
     max-width: 200px;
     text-align: center;
