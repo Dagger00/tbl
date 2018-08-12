@@ -24,6 +24,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 50%;
 }
 
 .conditions__image.conditions__image_num_1 {
@@ -132,6 +133,11 @@
 }
 
 @media (max-width: 570px) {
+
+    .conditions__inner {
+        width: 380px;
+    }
+
 
     .conditions__image {
         width: 350px;
