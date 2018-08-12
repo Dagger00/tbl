@@ -139,16 +139,16 @@
     }
 
     .conditions__inner {
-        width: 350px;
+        width: 340px;
     }
 
 
     .conditions__image {
-        width: 350px;
-        height: 350px;
+        width: 330px;
+        height: 330px;
     }
 
     .description {
-        width: 350px;
+        width: 340px;
     }
 }
