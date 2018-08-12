@@ -1,6 +1,7 @@
 .how {
     width: 100%;
 }
+
 .how__inner {
     width: 90%;
     margin: auto;
@@ -32,6 +33,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .how__img {
     width: 70px;
     height: 70px;
@@ -40,12 +42,21 @@
     fill: black;
 
 }
+
 .how__img.how__img_long {
     width: 70px;
     height: 60px;
 
 }
+
 .how__text {
     max-width: 200px;
     text-align: center;
+}
+
+.how__b_orange {
+    color: #eb633d;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
 }
