@@ -1,4 +1,9 @@
+.how {
+    width: 100%;
+}
 .how__inner {
+    width: 90%;
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,6 +18,27 @@
     line-height: 1.23;
 }
 
-.how__image {
+.how__container {
+    font-size: 19px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.how__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.how__img {
+    width: 70px;
+    height: 70px;
+    border-radius: 10%;
     margin-top: 80px;
+}
+.how__text {
+    max-width: 200px;
+    text-align: center;
 }
