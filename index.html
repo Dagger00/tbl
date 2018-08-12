@@ -185,10 +185,20 @@
         <div class="feedback__inner">
             <h2 class="feedback__title">Отзывы наших клиентов</h2>
             <div class="feedback__items">
-                <div class="feedback__item">
+                <div class="feedback__item feedback__item_active">
                     <p class="feedback__text">{{feedback.f1.text}}</p>
                     <div class="feedback__photo feedback__photo_1"></div>
                     <p class="feedback__name">{{feedback.f1.name}}</p>
+                </div>
+                <div class="feedback__item">
+                    <p class="feedback__text">RTTTTTTTTR</p>
+                    <div class="feedback__photo feedback__photo_1"></div>
+                    <p class="feedback__name">KEEEEEEEk</p>
+                </div>
+                <div class="feedback__item">
+                    <p class="feedback__text">fffffffffffffffffffff</p>
+                    <div class="feedback__photo feedback__photo_1"></div>
+                    <p class="feedback__name">AAAAAAAAAAAAAAA</p>
                 </div>
             </div>
             <div class="feedback__dots">
@@ -199,12 +209,12 @@
 
             <div class="feedback__buttons-container">
 
-                <div class="feedback__button-container feedback__button-container_left">
+                <div class="feedback__button-container feedback__button-container_left" onclick="plusSlides(-1)">
                     <div class="feedback__mini-container feedback__mini-container_left">
                         <div class="feedback__button feedback__button_left"></div>
                     </div>
                 </div>
-                <div class="feedback__button-container feedback__button-container_right">
+                <div class="feedback__button-container feedback__button-container_right" onclick="plusSlides(1)">
                     <div class="feedback__mini-container feedback__mini-container_right">
                         <div class="feedback__button feedback__button_right"></div>
                     </div>
@@ -340,6 +350,33 @@
         });
     });
 
+
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("feedback__item");
+        var dots = document.getElementsByClassName("feedback__dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" feedback__dot_active", "");
+        }
+        slides[slideIndex-1].style.display = "flex";
+        dots[slideIndex-1].className += " feedback__dot_active";
+    }
 </script>
 
 </body>
