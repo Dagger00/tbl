@@ -96,8 +96,12 @@
 
 }
 @media (max-width: 570px) {
+    .contacts__inner {
+        max-width: 350px;
+    }
+
     .contacts__field {
-        margin: 20px 10px 0 10px;
+        margin: 20px 10px 0 3px;
     }
     .contacts__text {
         display: flex;
