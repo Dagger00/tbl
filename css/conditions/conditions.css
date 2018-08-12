@@ -134,8 +134,12 @@
 
 @media (max-width: 570px) {
 
+    .description__item span:nth-child(2n) {
+        width: 134px;
+    }
+
     .conditions__inner {
-        width: 380px;
+        width: 350px;
     }
 
 
