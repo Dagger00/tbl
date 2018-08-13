@@ -58,7 +58,12 @@
 
 .feedback__photo_1 {
     background-image: url("../../img/otziv-1.jpg");
-
+}
+.feedback__photo_2 {
+    background-image: url("../../img/otziv-2.jpeg");
+}
+.feedback__photo_3 {
+    background-image: url("../../img/otziv-1.jpg");
 }
 
 .feedback__buttons-container {
