@@ -225,7 +225,7 @@
 
     <section class="main-offer" id="offer">
         <div class="main-offer__inner">
-            <h2 class="main-offer__title">Нужен кран-манипулятор?</h2>
+            <h2 class="main-offer__title">{{mainOffer}}</h2>
             <div class="main-offer__info">
                 <div class="main-offer__text">
                     <p class="main-offer__description">Позвоните</p>
@@ -290,6 +290,7 @@
         el: "#app",
         data: {
             offerTitle: "Кран-манипулятор на вашем объекте через день!",
+            mainOffer: "Нужен кран-манипулятор?",
             feedback: {
                 f1: {
                     text: 'Не ожидал, что в такие короткие сроки можно организовать поставку техники к себе на объект',
@@ -310,19 +311,22 @@
         },
         created: function () {
             if (location.href.includes('ekskavator')) {
-                this.offerTitle = 'Экскаватор на вашем объекте через день!';
+                this.offerTitle = 'Экскаватор на вашем объекте уже сегодня!';
+                this.mainOffer = 'Нужен экскаватор?';
                 document.getElementsByClassName('conditions__image_num_1').item(0).style.backgroundImage = "url('img/ekskavator/ekskavator1.jpg')";
                 document.getElementsByClassName('conditions__image_num_2').item(0).style.backgroundImage = "url('img/ekskavator/ekskavator2.jpg')";
                 document.getElementsByClassName('conditions__image_num_3').item(0).style.backgroundImage = "url('img/ekskavator/ekskavator3.jpg')";
             }
             if (location.href.includes('kran-manipulator')) {
-                this.offerTitle = 'Кран-манипулятор на вашем объекте через день!';
+                this.offerTitle = 'Кран-манипулятор на вашем объекте уже сегодня!';
+                this.mainOffer = 'Нужен кран-манипулятор?';
                 document.getElementsByClassName('conditions__image_num_1').item(0).style.backgroundImage = "url('img/kran-manipulator/kran-manipulyator1.jpg')";
                 document.getElementsByClassName('conditions__image_num_2').item(0).style.backgroundImage = "url('img/kran-manipulator/kran-manipulyator2.jpg')";
                 document.getElementsByClassName('conditions__image_num_3').item(0).style.backgroundImage = "url('img/kran-manipulator/kran-manipulyator3.jpg')";
             }
             if (location.href.includes('avtokran')) {
-                this.offerTitle = 'Автокран на вашем объекте через день!';
+                this.offerTitle = 'Автокран на вашем объекте уже сегодня!';
+                this.mainOffer = 'Нужен автокран?';
                 document.getElementsByClassName('conditions__image_num_1').item(0).style.backgroundImage = "url('img/avtokran/avtokran1.jpg')";
                 document.getElementsByClassName('conditions__image_num_2').item(0).style.backgroundImage = "url('img/avtokran/avtokran2.jpg')";
                 document.getElementsByClassName('conditions__image_num_3').item(0).style.backgroundImage = "url('img/avtokran/avtokran3.jpg')";
