@@ -53,9 +53,8 @@
     <section class="conditions" id="conditions">
         <div class="conditions__inner">
             <div class="conditions__item">
-                <div class="conditions__image conditions__image_num_1 image"
-                     src="img/kran-manipulator/kran-manipulyator1.jpg"></div>
-                <a rel="simplebox" href="img/kran-manipulator/kran-manipulyator1.jpg"></a>
+                <div class="conditions__image conditions__image_num_1 image"></div>
+                <img class="image1" src="img/kran-manipulator/kran-manipulyator1.jpg" alt="" style="display: none">
                 <h2 class="conditions__title">Кран-манипулятор</h2>
                 <ul class="description">
                     <li class="description__item"><span>Вылет стрелы</span> <span>12, 16, 18, 22 м.</span></li>
@@ -69,9 +68,8 @@
                 <a class="conditions__button" href="#offer">Заказать</a>
             </div>
             <div class="conditions__item">
-                <div class="conditions__image conditions__image_num_2 image"
-                     src="img/kran-manipulator/kran-manipulyator2.jpg"></div>
-                <a rel="simplebox" href="img/kran-manipulator/kran-manipulyator2.jpg"></a>
+                <div class="conditions__image conditions__image_num_2 image" src="img/kran-manipulator/kran-manipulyator2.jpg"></div>
+                <img class="image2" src="img/kran-manipulator/kran-manipulyator1.jpg" alt="" style="display: none">
                 <h2 class="conditions__title">Кран-манипулятор</h2>
                 <ul class="description">
                     <li class="description__item"><span>Вылет стрелы</span> <span>12, 16, 18, 22 м.</span></li>
@@ -85,9 +83,8 @@
                 <a class="conditions__button" href="#offer">Заказать</a>
             </div>
             <div class="conditions__item">
-                <div class="conditions__image conditions__image_num_3 image"
-                     src="img/kran-manipulator/kran-manipulyator3.jpg"></div>
-                <a rel="simplebox" href="img/kran-manipulator/kran-manipulyator3.jpg"></a>
+                <div class="conditions__image conditions__image_num_3 image" src="img/kran-manipulator/kran-manipulyator3.jpg"></div>
+                <img class="image3" src="img/kran-manipulator/kran-manipulyator1.jpg" alt="" style="display: none">
                 <h2 class="conditions__title">Кран-манипулятор</h2>
                 <ul class="description">
                     <li class="description__item"><span>Вылет стрелы</span> <span>12, 16, 18, 22 м.</span></li>
@@ -249,8 +246,11 @@
 
     <section class="map" id="map">
         <div class="map__inner">
-            <h3 class="map__title">К нам можно <a target="_blank" class="map__link" href="https://yandex.ru/maps/?um=constructor%3A6c5c8306188c2d250c26c9ccf995f826fd9116b062436ab06ec083671915a2fd&source=constructorLink">приехать</a></h3>
-            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A6c5c8306188c2d250c26c9ccf995f826fd9116b062436ab06ec083671915a2fd&amp;source=constructor" width="100%" height="502" frameborder="0"></iframe>
+            <h3 class="map__title">К нам можно <a target="_blank" class="map__link"
+                                                  href="https://yandex.ru/maps/?um=constructor%3A6c5c8306188c2d250c26c9ccf995f826fd9116b062436ab06ec083671915a2fd&source=constructorLink">приехать</a>
+            </h3>
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A6c5c8306188c2d250c26c9ccf995f826fd9116b062436ab06ec083671915a2fd&amp;source=constructor"
+                    width="100%" height="502" frameborder="0"></iframe>
         </div>
     </section>
 
@@ -316,6 +316,14 @@
                 document.getElementsByClassName('conditions__image_num_1').item(0).style.backgroundImage = "url('img/ekskavator/ekskavator1.jpg')";
                 document.getElementsByClassName('conditions__image_num_2').item(0).style.backgroundImage = "url('img/ekskavator/ekskavator2.jpg')";
                 document.getElementsByClassName('conditions__image_num_3').item(0).style.backgroundImage = "url('img/ekskavator/ekskavator3.jpg')";
+
+                document.getElementsByClassName('image1').item(0).src = "img/ekskavator/ekskavator1.jpg";
+                document.getElementsByClassName('image2').item(0).src = "img/ekskavator/ekskavator2.jpg";
+                document.getElementsByClassName('image3').item(0).src = "img/ekskavator/ekskavator3.jpg";
+
+                document.getElementsByClassName('conditions__title').item(0).innerHTML = "Экскаватор";
+                document.getElementsByClassName('conditions__title').item(1).innerHTML = "Экскаватор";
+                document.getElementsByClassName('conditions__title').item(2).innerHTML = "Экскаватор";
             }
             if (location.href.includes('kran-manipulator')) {
                 this.offerTitle = 'Кран-манипулятор на вашем объекте уже сегодня!';
@@ -323,6 +331,14 @@
                 document.getElementsByClassName('conditions__image_num_1').item(0).style.backgroundImage = "url('img/kran-manipulator/kran-manipulyator1.jpg')";
                 document.getElementsByClassName('conditions__image_num_2').item(0).style.backgroundImage = "url('img/kran-manipulator/kran-manipulyator2.jpg')";
                 document.getElementsByClassName('conditions__image_num_3').item(0).style.backgroundImage = "url('img/kran-manipulator/kran-manipulyator3.jpg')";
+
+                document.getElementsByClassName('image1').item(0).src = "img/kran-manipulator/kran-manipulyator1.jpg";
+                document.getElementsByClassName('image2').item(0).src = "img/kran-manipulator/kran-manipulyator2.jpg";
+                document.getElementsByClassName('image3').item(0).src = "img/kran-manipulator/kran-manipulyator3.jpg";
+
+                document.getElementsByClassName('conditions__title').item(0).innerHTML = "Кран-манипулятор";
+                document.getElementsByClassName('conditions__title').item(1).innerHTML = "Кран-манипулятор";
+                document.getElementsByClassName('conditions__title').item(2).innerHTML = "Кран-манипулятор";
             }
             if (location.href.includes('avtokran')) {
                 this.offerTitle = 'Автокран на вашем объекте уже сегодня!';
@@ -330,6 +346,14 @@
                 document.getElementsByClassName('conditions__image_num_1').item(0).style.backgroundImage = "url('img/avtokran/avtokran1.jpg')";
                 document.getElementsByClassName('conditions__image_num_2').item(0).style.backgroundImage = "url('img/avtokran/avtokran2.jpg')";
                 document.getElementsByClassName('conditions__image_num_3').item(0).style.backgroundImage = "url('img/avtokran/avtokran3.jpg')";
+
+                document.getElementsByClassName('image1').item(0).src = "img/avtokran/avtokran1.jpg";
+                document.getElementsByClassName('image2').item(0).src = "img/avtokran/avtokran2.jpg";
+                document.getElementsByClassName('image3').item(0).src = "img/avtokran/avtokran3.jpg";
+
+                document.getElementsByClassName('conditions__title').item(0).innerHTML = "Автокран";
+                document.getElementsByClassName('conditions__title').item(1).innerHTML = "Автокран";
+                document.getElementsByClassName('conditions__title').item(2).innerHTML = "Автокран";
             }
         },
         methods: {
@@ -341,7 +365,7 @@
 </script>
 <script>
     $(".image").click(function () {
-        var img = $(this);
+        var img = $(this).next();
         var src = img.attr('src');
         $("body").append("<div class='popup'>" + "<div class='popup_bg'></div>" + "<img src='" + src + "' class='popup_img' />" + "</div>");
         $(".popup").fadeIn(800);
@@ -369,16 +393,20 @@
         var i;
         var slides = document.getElementsByClassName("feedback__item");
         var dots = document.getElementsByClassName("feedback__dot");
-        if (n > slides.length) {slideIndex = 1}
-        if (n < 1) {slideIndex = slides.length}
+        if (n > slides.length) {
+            slideIndex = 1
+        }
+        if (n < 1) {
+            slideIndex = slides.length
+        }
         for (i = 0; i < slides.length; i++) {
             slides[i].style.display = "none";
         }
         for (i = 0; i < dots.length; i++) {
             dots[i].className = dots[i].className.replace(" feedback__dot_active", "");
         }
-        slides[slideIndex-1].style.display = "flex";
-        dots[slideIndex-1].className += " feedback__dot_active";
+        slides[slideIndex - 1].style.display = "flex";
+        dots[slideIndex - 1].className += " feedback__dot_active";
     }
 </script>
 
