@@ -39,6 +39,18 @@
     background-image: url(../../img/kran-manipulator/kran-manipulyator3.jpg);
 }
 
+.conditions__image.conditions__image_num_5 {
+    background-image: url(../../img/kran-manipulator/kran-manipulyator1.jpg);
+}
+
+.conditions__image.conditions__image_num_6 {
+    background-image: url(../../img/kran-manipulator/kran-manipulyator2.jpg);
+}
+
+.conditions__image.conditions__image_num_7 {
+    background-image: url(../../img/kran-manipulator/kran-manipulyator3.jpg);
+}
+
 .conditions__title {
     padding: 0;
     margin: 0;
