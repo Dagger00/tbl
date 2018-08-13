@@ -246,12 +246,12 @@
                     <p class="feedback__name">{{feedback.f1.name}}</p>
                 </div>
                 <div class="feedback__item">
-                    <p class="feedback__text">RTTTTTTTTR</p>
+                    <p class="feedback__text">{{feedback.f2.text}}</p>
                     <div class="feedback__photo feedback__photo_2"></div>
                     <p class="feedback__name">{{feedback.f2.name}}</p>
                 </div>
                 <div class="feedback__item">
-                    <p class="feedback__text">fffffffffffffffffffff</p>
+                    <p class="feedback__text">{{feedback.f3.text}}</p>
                     <div class="feedback__photo feedback__photo_3"></div>
                     <p class="feedback__name">{{feedback.f3.name}}</p>
                 </div>
@@ -356,7 +356,7 @@
                     name: 'Агарков Максим ЗАО "Зенит Инвестпром"'
                 },
                 f2: {
-                    text: 'Inshalla brat',
+                    text: 'Наш кран внезапно сломался, а нужно было разгрузить еще 3 машины с плитами, одна из которых была уже на объекте. Обратились в эту компанию. Пообещали что кран будет максимум через два часа. Прибыл примерно через 1 час -10 мин., если с момента звонка, специально засекли, т.к. цигель-цигель... Что очень порадовало - не пришлось платить неустойку за длинномеры. В целом все в штатном режиме. Спасибо!',
                     photo: '',
                     name: 'Борис Зейтунян ООО «МПМ»'
                 },
@@ -514,11 +514,11 @@
                 this.mainOffer = 'Нужна автовышка?';
                 document.getElementsByClassName('conditions__image_num_1').item(0).style.backgroundImage = "url('img/avtovishka/avtovyshka-1.jpg')";
                 document.getElementsByClassName('conditions__image_num_2').item(0).style.backgroundImage = "url('img/avtovishka/avtovyshka-2.jpg')";
-                document.getElementsByClassName('conditions__image_num_3').item(0).style.backgroundImage = "url('img/avtovishka/avtovyshka-3.jpg')";
+                document.getElementsByClassName('conditions__image_num_3').item(0).style.backgroundImage = "url('img/avtovishka/avtovishka3-1.jpeg')";
 
                 document.getElementsByClassName('image1').item(0).src = "img/avtovishka/avtovyshka-1.jpg";
                 document.getElementsByClassName('image2').item(0).src = "img/avtovishka/avtovyshka-2.jpg";
-                document.getElementsByClassName('image3').item(0).src = "img/avtovishka/avtovyshka-3.jpg";
+                document.getElementsByClassName('image3').item(0).src = "img/avtovishka/avtovishka3-1.jpeg";
 
                 document.getElementsByClassName('description1').item(0).innerHTML = "<li class=\"description__item\"><span>Боковой вылет стрелы</span> <span>12 - 22 м.</span></li>";
                 document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Высота подъема автовышки</span> <span>12 - 50 м.</span></li>";
