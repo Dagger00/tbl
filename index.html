@@ -248,12 +248,12 @@
                 <div class="feedback__item">
                     <p class="feedback__text">RTTTTTTTTR</p>
                     <div class="feedback__photo feedback__photo_2"></div>
-                    <p class="feedback__name">Борис Зейтунян</p>
+                    <p class="feedback__name">{{feedback.f2.name}}</p>
                 </div>
                 <div class="feedback__item">
                     <p class="feedback__text">fffffffffffffffffffff</p>
                     <div class="feedback__photo feedback__photo_3"></div>
-                    <p class="feedback__name">Пивоваров Иван</p>
+                    <p class="feedback__name">{{feedback.f3.name}}</p>
                 </div>
             </div>
             <div class="feedback__dots">
@@ -353,17 +353,17 @@
                 f1: {
                     text: 'Не ожидал, что в такие короткие сроки можно организовать поставку техники к себе на объект',
                     photo: '',
-                    name: 'Агарков Максим'
+                    name: 'Агарков Максим ЗАО "Зенит Инвестпром"'
                 },
                 f2: {
                     text: 'Inshalla brat',
                     photo: '',
-                    name: 'Zeev Gershenzon'
+                    name: 'Борис Зейтунян ООО «МПМ»'
                 },
                 f3: {
                     text: 'Не ожидал, что в такие короткие сроки можно организовать поставку техники к себе на объект',
                     photo: '',
-                    name: 'Агарков Максим'
+                    name: 'Пивоваров Иван АО "Изолюкс"'
                 }
             }
         },
@@ -628,19 +628,19 @@
 
                 document.getElementsByClassName('description1').item(0).innerHTML = "<li class=\"description__item\"><span>Рабочий вес</span> <span>3 - 20 т.</span></li>";
                 document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Ширина уплотняемой полосы</span> <span>1000 - 3000 мм.</span></li>";
-                document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1000 - 2000 руб./ч.</span></li>";
+                document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1250 - 2000 руб./ч.</span></li>";
 
                 document.getElementsByClassName('description2').item(0).innerHTML = "<li class=\"description__item\"><span>Рабочий вес</span> <span>3 - 20 т.</span></li>";
                 document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Ширина уплотняемой полосы</span> <span>1000 - 3000 мм.</span></li>";
-                document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1000 - 2000 руб./ч.</span></li>";
+                document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1250 - 2000 руб./ч.</span></li>";
 
                 document.getElementsByClassName('description3').item(0).innerHTML = "<li class=\"description__item\"><span>Рабочий вес</span> <span>3 - 20 т.</span></li>";
                 document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Ширина уплотняемой полосы</span> <span>1000 - 3000 мм.</span></li>";
                 document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1000 - 2000 руб./ч.</span></li>";
 
-                document.getElementsByClassName('conditions__title').item(0).innerHTML = "Каток";
-                document.getElementsByClassName('conditions__title').item(1).innerHTML = "Каток";
-                document.getElementsByClassName('conditions__title').item(2).innerHTML = "Каток";
+                document.getElementsByClassName('conditions__title').item(0).innerHTML = "Каток асфальтный";
+                document.getElementsByClassName('conditions__title').item(1).innerHTML = "Каток асфальтный";
+                document.getElementsByClassName('conditions__title').item(2).innerHTML = "Каток грунтовый";
             }
 
             if (location.href.includes('pogruz4ik')) {
