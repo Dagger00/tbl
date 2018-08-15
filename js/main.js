@@ -249,23 +249,24 @@ var app = new Vue({
             document.getElementsByClassName('image2').item(0).src = "img/buldozer/buldozer2.jpg";
             document.getElementsByClassName('image3').item(0).src = "img/buldozer/buldozer3.jpg";
 
-            document.getElementsByClassName('description1').item(0).innerHTML = "<li class=\"description__item\"><span>Масса бульдозера</span> <span>17 - 50 т.</span></li>";
-            document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Мощность двигателя</span> <span>140 - 700 л.с.</span></li>";
-            document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Тип бульдозера</span> <span>Гусенечный</span></li>";
+            document.getElementsByClassName('description1').item(0).innerHTML = "<li class=\"description__item\"><span>Масса бульдозера</span> <span>17 - 26 т.</span></li>";
+            document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Мощность двигателя</span> <span>180 - 250 л.с.</span></li>";
+            document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Емкость отвала</span> <span>4,25 - 7, 5 м3</span></li>";
             document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Ширина отвала</span> <span>3 м.</span></li>";
             document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1500 - 2400 руб./ч.</span></li>";
 
-            document.getElementsByClassName('description2').item(0).innerHTML = "<li class=\"description__item\"><span>Масса бульдозера</span> <span>17 - 50 т.</span></li>";
-            document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Мощность двигателя</span> <span>140 - 700 л.с.</span></li>";
-            document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Тип бульдозера</span> <span>Гусенечный</span></li>";
+            document.getElementsByClassName('description2').item(0).innerHTML = "<li class=\"description__item\"><span>Масса бульдозера</span> <span>17 - 26 т.</span></li>";
+            document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Мощность двигателя</span> <span>180 - 250 л.с.</span></li>";
+            document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Емкость отвала</span> <span>4,25 - 7, 5 м3</span></li>";
             document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Ширина отвала</span> <span>3 м.</span></li>";
-            document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1500 - 2400 руб./ч.</span></li>";
+            document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1500 - 2500 руб./ч.</span></li>";
 
-            document.getElementsByClassName('description3').item(0).innerHTML = "<li class=\"description__item\"><span>Масса бульдозера</span> <span>17 - 50 т.</span></li>";
-            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Мощность двигателя</span> <span>140 - 700 л.с.</span></li>";
-            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Тип бульдозера</span> <span>Гусенечный</span></li>";
+            document.getElementsByClassName('description3').item(0).innerHTML = "<li class=\"description__item\"><span>Масса бульдозера</span> <span>17 - 26 т.</span></li>";
+            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Мощность двигателя</span> <span>180 - 250 л.с.</span></li>";
+            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Емкость отвала</span> <span>4,25 - 7, 5 м3</span></li>";
             document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Ширина отвала</span> <span>3 м.</span></li>";
-            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1500 - 2400 руб./ч.</span></li>";
+            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1500 - 2500 руб./ч.</span></li>";
+
 
             document.getElementsByClassName('conditions__title').item(0).innerHTML = "Бульдозер ЧТЗ";
             document.getElementsByClassName('conditions__title').item(1).innerHTML = "Бульдозер Komatsu";
@@ -285,15 +286,19 @@ var app = new Vue({
 
             document.getElementsByClassName('description1').item(0).innerHTML = "<li class=\"description__item\"><span>Рабочий вес</span> <span>3 - 20 т.</span></li>";
             document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Ширина уплотняемой полосы</span> <span>1000 - 3000 мм.</span></li>";
-            document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1250 - 2000 руб./ч.</span></li>";
+            document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Тип</span> <span>статический</span></li>";
+            document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1200 - 1900 руб./ч.</span></li>";
 
             document.getElementsByClassName('description2').item(0).innerHTML = "<li class=\"description__item\"><span>Рабочий вес</span> <span>3 - 20 т.</span></li>";
             document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Ширина уплотняемой полосы</span> <span>1000 - 3000 мм.</span></li>";
-            document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1250 - 2000 руб./ч.</span></li>";
+            document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Тип</span> <span>вибрационный</span></li>";
+            document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1200 - 1900 руб./ч.</span></li>";
 
             document.getElementsByClassName('description3').item(0).innerHTML = "<li class=\"description__item\"><span>Рабочий вес</span> <span>3 - 20 т.</span></li>";
             document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Ширина уплотняемой полосы</span> <span>1000 - 3000 мм.</span></li>";
-            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1000 - 2000 руб./ч.</span></li>";
+            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Тип</span> <span>вибрационный</span></li>";
+            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Доп. оборудование</span> <span>Кулачковый бандаж</span></li>";
+            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1200 - 1900 руб./ч.</span></li>";
 
             document.getElementsByClassName('conditions__title').item(0).innerHTML = "Каток асфальтный";
             document.getElementsByClassName('conditions__title').item(1).innerHTML = "Каток асфальтный";
