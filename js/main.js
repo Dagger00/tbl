@@ -71,27 +71,30 @@ var app = new Vue({
 
             document.getElementsByClassName('description1').item(0).innerHTML = "<li class=\"description__item\"><span>Вылет стрелы</span> <span>12, 16, 18, 22 м.</span></li>";
             document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Грузоподъемность кузова</span> <span>3-20 т.</span></li>";
-            document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Грузоподъемность стрелы</span> <span>2-25 т.</span></li>";
+            document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Грузоподъемность стрелы</span> <span>2-12 т.</span></li>";
             document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Длина кузова</span> <span>3-12 м.</span></li>";
             document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Тип проходимости:</span> <span>колесный</span></li>";
             document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Ширина кузова</span> <span>2,35 - 2,5 м.</span></li>";
-            document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1000 - 1500 руб./ч.</span></li>";
+            document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Доп. оборудование</span> <span>шнек, люлька для людей</span></li>";
+            document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1000 - 1850 руб./ч.</span></li>";
 
             document.getElementsByClassName('description2').item(0).innerHTML = "<li class=\"description__item\"><span>Вылет стрелы</span> <span>12, 16, 18, 22 м.</span></li>";
             document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Грузоподъемность кузова</span> <span>3-20 т.</span></li>";
-            document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Грузоподъемность стрелы</span> <span>2-25 т.</span></li>";
+            document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Грузоподъемность стрелы</span> <span>2-12 т.</span></li>";
             document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Длина кузова</span> <span>3-12 м.</span></li>";
             document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Тип проходимости:</span> <span>колесный</span></li>";
             document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Ширина кузова</span> <span>2,35 - 2,5 м.</span></li>";
-            document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1000 - 1500 руб./ч.</span></li>";
+            document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Доп. оборудование</span> <span>шнек, люлька для людей</span></li>";
+            document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1000 - 1850 руб./ч.</span></li>";
 
             document.getElementsByClassName('description3').item(0).innerHTML = "<li class=\"description__item\"><span>Вылет стрелы</span> <span>12, 16, 18, 22 м.</span></li>";
             document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Грузоподъемность кузова</span> <span>3-20 т.</span></li>";
-            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Грузоподъемность стрелы</span> <span>2-25 т.</span></li>";
+            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Грузоподъемность стрелы</span> <span>2-12 т.</span></li>";
             document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Длина кузова</span> <span>3-12 м.</span></li>";
             document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Тип проходимости:</span> <span>колесный</span></li>";
             document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Ширина кузова</span> <span>2,35 - 2,5 м.</span></li>";
-            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1000 - 1500 руб./ч.</span></li>";
+            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Доп. оборудование</span> <span>шнек, люлька для людей</span></li>";
+            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1000 - 1850 руб./ч.</span></li>";
 
             document.getElementsByClassName('image1').item(0).src = "img/kran-manipulator/kran-manipulyator1-1.jpg";
             document.getElementsByClassName('image2').item(0).src = "img/kran-manipulator/kran-manipulyator2.jpg";
@@ -174,26 +177,26 @@ var app = new Vue({
             document.getElementsByClassName('image2').item(0).src = "img/avtovishka/avtovyshka-2.jpg";
             document.getElementsByClassName('image3').item(0).src = "img/avtovishka/avtovishka3-1.jpeg";
 
-            document.getElementsByClassName('description1').item(0).innerHTML = "<li class=\"description__item\"><span>Боковой вылет стрелы</span> <span>12 - 22 м.</span></li>";
-            document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Высота подъема автовышки</span> <span>12 - 50 м.</span></li>";
-            document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Грузоподъемность корзины</span> <span>100 - 800 кг.</span></li>";
+            document.getElementsByClassName('description1').item(0).innerHTML = "<li class=\"description__item\"><span>Боковой вылет стрелы</span> <span>8 - 14 м.</span></li>";
+            document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Высота подъема автовышки</span> <span>8 - 28 м.</span></li>";
+            document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Грузоподъемность корзины</span> <span>100 - 250 кг.</span></li>";
             document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Тип подъёмника автовышки</span> <span>комбинированная</span></li>";
             document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Тип проходимости:</span> <span>колесный</span></li>";
-            document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1100 - 4900 руб./ч.</span></li>";
+            document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1000 - 1375 руб./ч.</span></li>";
 
             document.getElementsByClassName('description2').item(0).innerHTML = "<li class=\"description__item\"><span>Боковой вылет стрелы</span> <span>12 - 22 м.</span></li>";
-            document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Высота подъема автовышки</span> <span>12 - 50 м.</span></li>";
-            document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Грузоподъемность корзины</span> <span>100 - 800 кг.</span></li>";
+            document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Высота подъема автовышки</span> <span>32 - 60 м.</span></li>";
+            document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Грузоподъемность корзины</span> <span>200 - 300 кг.</span></li>";
             document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Тип подъёмника автовышки</span> <span>телескопическая</span></li>";
             document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Тип проходимости:</span> <span>колесный</span></li>";
-            document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1100 - 4900 руб./ч.</span></li>";
+            document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1750 - 4900 руб./ч.</span></li>";
 
-            document.getElementsByClassName('description3').item(0).innerHTML = "<li class=\"description__item\"><span>Боковой вылет стрелы</span> <span>12 - 22 м.</span></li>";
-            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Высота подъема автовышки</span> <span>12 - 50 м.</span></li>";
-            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Грузоподъемность корзины</span> <span>100 - 800 кг.</span></li>";
-            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Тип подъёмника автовышки</span> <span>комбинированная</span></li>";
+            document.getElementsByClassName('description3').item(0).innerHTML = "<li class=\"description__item\"><span>Боковой вылет стрелы</span> <span>8 - 14 м.</span></li>";
+            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Высота подъема автовышки</span> <span>8 - 28 м.</span></li>";
+            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Грузоподъемность корзины</span> <span>100 - 200 кг.</span></li>";
+            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Тип подъёмника автовышки</span> <span>телескопическая</span></li>";
             document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Тип проходимости:</span> <span>колесный</span></li>";
-            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1100 - 4900 руб./ч.</span></li>";
+            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1100 - 1500 руб./ч.</span></li>";
 
             document.getElementsByClassName('conditions__title').item(0).innerHTML = "Автовышка вездеход";
             document.getElementsByClassName('conditions__title').item(1).innerHTML = "Автовышка";
@@ -230,9 +233,9 @@ var app = new Vue({
             document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span><a class=\"how__b_orange\" href=\"#offer\">Запросить</a></span></li>";
 
 
-            document.getElementsByClassName('conditions__title').item(0).innerHTML = "Башенный кран";
-            document.getElementsByClassName('conditions__title').item(1).innerHTML = "Башенный кран";
-            document.getElementsByClassName('conditions__title').item(2).innerHTML = "Башенный кран";
+            document.getElementsByClassName('conditions__title').item(0).innerHTML = "Быстромонтируемый башенный кран";
+            document.getElementsByClassName('conditions__title').item(1).innerHTML = "Башенный кран с оголовком";
+            document.getElementsByClassName('conditions__title').item(2).innerHTML = "Башенный кран без оголовка";
         }
 
         if (location.href.includes('buldozer')) {
@@ -264,9 +267,9 @@ var app = new Vue({
             document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Ширина отвала</span> <span>3 м.</span></li>";
             document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1500 - 2400 руб./ч.</span></li>";
 
-            document.getElementsByClassName('conditions__title').item(0).innerHTML = "Бульдозер";
-            document.getElementsByClassName('conditions__title').item(1).innerHTML = "Бульдозер";
-            document.getElementsByClassName('conditions__title').item(2).innerHTML = "Бульдозер";
+            document.getElementsByClassName('conditions__title').item(0).innerHTML = "Бульдозер ЧТЗ";
+            document.getElementsByClassName('conditions__title').item(1).innerHTML = "Бульдозер Komatsu";
+            document.getElementsByClassName('conditions__title').item(2).innerHTML = "Бульдозер Shantui";
         }
 
         if (location.href.includes('katok')) {
@@ -302,11 +305,11 @@ var app = new Vue({
             this.mainOffer = 'Нужен погрузчик?';
             document.getElementsByClassName('conditions__image_num_1').item(0).style.backgroundImage = "url('img/pogruz4ik/pogruz4ik1.jpg')";
             document.getElementsByClassName('conditions__image_num_2').item(0).style.backgroundImage = "url('img/pogruz4ik/pogruz4ik2.jpg')";
-            document.getElementsByClassName('conditions__image_num_3').item(0).style.backgroundImage = "url('img/pogruz4ik/pogruz4ik3.jpg')";
+            document.getElementsByClassName('conditions__image_num_3').item(0).style.backgroundImage = "url('img/pogruz4ik/pogruz123.jpg')";
 
             document.getElementsByClassName('image1').item(0).src = "img/pogruz4ik/pogruz4ik1.jpg";
             document.getElementsByClassName('image2').item(0).src = "img/pogruz4ik/pogruz4ik2.jpg";
-            document.getElementsByClassName('image3').item(0).src = "img/pogruz4ik/pogruz4ik3.jpg";
+            document.getElementsByClassName('image3').item(0).src = "img/pogruz4ik/pogruz123.jpg";
 
             document.getElementsByClassName('description1').item(0).innerHTML = "<li class=\"description__item\"><span>Высота подъема</span> <span>2 - 4 м.</span></li>";
             document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Грузоподъемность ковша</span> <span>2 - 4 т.</span></li>";
@@ -315,60 +318,62 @@ var app = new Vue({
             document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Тип проходимости</span> <span>колесный</span></li>";
             document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1300 - 2100 руб./ч.</span></li>";
 
-            document.getElementsByClassName('description2').item(0).innerHTML = "<li class=\"description__item\"><span>Высота подъема</span> <span>2 - 4 м.</span></li>";
-            document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Грузоподъемность ковша</span> <span>2 - 4 т.</span></li>";
-            document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Эксплуатационная масса</span> <span>4 - 33 т.</span></li>";
-            document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Объём ковша</span> <span>0,25 - 5 м3</span></li>";
+            document.getElementsByClassName('description2').item(0).innerHTML = "<li class=\"description__item\"><span>Высота подъема</span> <span>3 м.</span></li>";
+            document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Грузоподъемность ковша</span> <span>0,8 - 1,85 т.</span></li>";
+            document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Эксплуатационная масса</span> <span>2,8 - 4 т.</span></li>";
+            document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Объём ковша</span> <span>0,5 - 1,5 м3</span></li>";
             document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Тип проходимости</span> <span>гусеничный/кол-й</span></li>";
             document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1000 - 1350 руб./ч.</span></li>";
 
-            document.getElementsByClassName('description3').item(0).innerHTML = "<li class=\"description__item\"><span>Высота подъема</span> <span>2 - 4 м.</span></li>";
-            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Грузоподъемность ковша</span> <span>2 - 4 т.</span></li>";
-            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Эксплуатационная масса</span> <span>4 - 33 т.</span></li>";
-            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Объём ковша</span> <span>0,25 - 5 м3</span></li>";
+            document.getElementsByClassName('description3').item(0).innerHTML = "<li class=\"description__item\"><span>Высота подъема</span> <span>3 м.</span></li>";
+            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Грузоподъемность ковша</span> <span>1 - 3,3 т.</span></li>";
+            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Эксплуатационная масса</span> <span>8 т.</span></li>";
+            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Объём отвала</span> <span>1 м3</span></li>";
+            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Объём ковша</span> <span>0,3 м3</span></li>";
             document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Тип проходимости</span> <span>колесный/гусеничный</span></li>";
-            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1300 - 2100 руб./ч.</span></li>";
+            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Доп. оборудование</span> <span>гидромолот</span></li>";
+            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1350 - 1750 руб./ч.</span></li>";
 
 
             document.getElementsByClassName('conditions__title').item(0).innerHTML = "Фронтальный погрузчик";
             document.getElementsByClassName('conditions__title').item(1).innerHTML = "Мини-Погрузчик";
-            document.getElementsByClassName('conditions__title').item(2).innerHTML = "Фронтальный погрузчик";
+            document.getElementsByClassName('conditions__title').item(2).innerHTML = "Эксковатор-Погрузчик ";
         }
 
         if (location.href.includes('samosval')) {
             this.offerTitle = 'Самосвал на вашем объекте уже сегодня!';
             this.mainOffer = 'Нужен самосвал?';
             document.getElementsByClassName('conditions__image_num_1').item(0).style.backgroundImage = "url('img/samosval/samosval1.jpg')";
-            document.getElementsByClassName('conditions__image_num_2').item(0).style.backgroundImage = "url('img/samosval/samosval2.jpg')";
+            document.getElementsByClassName('conditions__image_num_2').item(0).style.backgroundImage = "url('img/samosval/samosval123.jpeg')";
             document.getElementsByClassName('conditions__image_num_3').item(0).style.backgroundImage = "url('img/samosval/samosval3.jpg')";
 
             document.getElementsByClassName('image1').item(0).src = "img/samosval/samosval1.jpg";
-            document.getElementsByClassName('image2').item(0).src = "img/samosval/samosval2.jpg";
+            document.getElementsByClassName('image2').item(0).src = "img/samosval/samosval123.jpeg";
             document.getElementsByClassName('image3').item(0).src = "img/samosval/samosval3.jpg";
 
             document.getElementsByClassName('description1').item(0).innerHTML = "<li class=\"description__item\"><span>Высота кузова</span> <span>1,5 - 3 м.</span></li>";
-            document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Грузоподъемность кузова</span> <span>10 - 40 т.</span></li>";
+            document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Грузоподъемность кузова</span> <span>10 - 20 т.</span></li>";
             document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Длина кузова</span> <span>5 - 8 м.</span></li>";
-            document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Объём кузова</span> <span>5 - 40 м3</span></li>";
+            document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Объём кузова</span> <span>8 - 25 м3</span></li>";
             document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Ширина кузова</span> <span>2 - 3 м.</span></li>";
-            document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1300 - 1900 руб./ч.</span></li>";
+            document.getElementsByClassName('description1').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>900 - 1500 руб./ч.</span></li>";
 
             document.getElementsByClassName('description2').item(0).innerHTML = "<li class=\"description__item\"><span>Высота кузова</span> <span>1,5 - 3 м.</span></li>";
-            document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Грузоподъемность кузова</span> <span>10 - 40 т.</span></li>";
+            document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Грузоподъемность кузова</span> <span>10 - 20 т.</span></li>";
             document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Длина кузова</span> <span>5 - 8 м.</span></li>";
-            document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Объём кузова</span> <span>5 - 40 м3</span></li>";
+            document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Объём кузова</span> <span>8 - 25 м3</span></li>";
             document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Ширина кузова</span> <span>2 - 3 м.</span></li>";
-            document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1300 - 1900 руб./ч.</span></li>";
+            document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1250 - 1600 руб./ч.</span></li>";
 
-            document.getElementsByClassName('description3').item(0).innerHTML = "<li class=\"description__item\"><span>Высота кузова</span> <span>1,5 - 3 м.</span></li>";
-            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Грузоподъемность кузова</span> <span>10 - 40 т.</span></li>";
-            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Длина кузова</span> <span>5 - 8 м.</span></li>";
-            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Объём кузова</span> <span>5 - 40 м3</span></li>";
-            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Ширина кузова</span> <span>2 - 3 м.</span></li>";
-            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1300 - 1900 руб./ч.</span></li>";
+            document.getElementsByClassName('description3').item(0).innerHTML = "<li class=\"description__item\"><span>Высота кузова</span> <span>2 - 3 м.</span></li>";
+            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Грузоподъемность кузова</span> <span>25 - 40 т.</span></li>";
+            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Длина кузова</span> <span>8 м.</span></li>";
+            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Объём кузова</span> <span>25 - 40 м3</span></li>";
+            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Ширина кузова</span> <span>3 м.</span></li>";
+            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1500 - 1900 руб./ч.</span></li>";
 
             document.getElementsByClassName('conditions__title').item(0).innerHTML = "Самосвал";
-            document.getElementsByClassName('conditions__title').item(1).innerHTML = "Самосвал";
+            document.getElementsByClassName('conditions__title').item(1).innerHTML = "Самосвал Вездеход";
             document.getElementsByClassName('conditions__title').item(2).innerHTML = "Самосвал";
         }
     },
