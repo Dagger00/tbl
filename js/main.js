@@ -127,7 +127,7 @@ var app = new Vue({
 
             document.getElementsByClassName('description2').item(0).innerHTML = "<li class=\"description__item\"><span>Грузоподъемность крана</span> <span>25 - 32 т.</span></li>";
             document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Вылет стрелы</span> <span>22 – 38 м. +6м.</span></li>";
-            document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Тип проходимости</span> <span>колесный</span></li>";
+            document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Тип проходимости</span> <span>шоссейный/вездеход</span></li>";
             document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1100 - 2500 руб./ч.</span></li>";
 
             document.getElementsByClassName('description3').item(0).innerHTML = "<li class=\"description__item\"><span>Грузоподъемность крана</span> <span>32 - 50 т.</span></li>";
