@@ -137,17 +137,17 @@ var app = new Vue({
 
             document.getElementsByClassName('description4').item(0).innerHTML = "<li class=\"description__item\"><span>Грузоподъемность крана</span> <span>70 - 100 т.</span></li>";
             document.getElementsByClassName('description4').item(0).innerHTML += "<li class=\"description__item\"><span>Вылет стрелы</span> <span>40 – 60 м. +19м.</span></li>";
-            document.getElementsByClassName('description4').item(0).innerHTML += "<li class=\"description__item\"><span>Тип проходимости</span> <span>колесный</span></li>";
+            document.getElementsByClassName('description4').item(0).innerHTML += "<li class=\"description__item\"><span>Тип проходимости</span> <span>шоссейный</span></li>";
             document.getElementsByClassName('description4').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>5800 - 11800 руб./ч.</span></li>";
 
             document.getElementsByClassName('description5').item(0).innerHTML = "<li class=\"description__item\"><span>Грузоподъемность крана</span> <span>120 - 250 т.</span></li>";
             document.getElementsByClassName('description5').item(0).innerHTML += "<li class=\"description__item\"><span>Вылет стрелы</span> <span>60 – 72 м. +22м.</span></li>";
-            document.getElementsByClassName('description5').item(0).innerHTML += "<li class=\"description__item\"><span>Тип проходимости</span> <span>колесный</span></li>";
+            document.getElementsByClassName('description5').item(0).innerHTML += "<li class=\"description__item\"><span>Тип проходимости</span> <span>шоссейный</span></li>";
             document.getElementsByClassName('description5').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>12000 - 22500 руб./ч.</span></li>";
 
             document.getElementsByClassName('description6').item(0).innerHTML = "<li class=\"description__item\"><span>Грузоподъемность крана</span> <span>300 - 750 т.</span></li>";
             document.getElementsByClassName('description6').item(0).innerHTML += "<li class=\"description__item\"><span>Вылет стрелы</span> <span>78 – 52 м. +91м.</span></li>";
-            document.getElementsByClassName('description6').item(0).innerHTML += "<li class=\"description__item\"><span>Тип проходимости</span> <span>колесный</span></li>";
+            document.getElementsByClassName('description6').item(0).innerHTML += "<li class=\"description__item\"><span>Тип проходимости</span> <span>шоссейный</span></li>";
             document.getElementsByClassName('description6').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span><a class=\"how__b_orange\" href=\"#offer\">Запросить</a></span></li>";
 
 
