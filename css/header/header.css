@@ -7,6 +7,7 @@
     display: flex;
     list-style: none;
 }
+
 .header__inner {
     display: flex;
     justify-content: space-between;
@@ -17,15 +18,16 @@
 .logo__img {
     width: 250px;
 }
+
 .nav-list__link {
     text-decoration: none;
     color: #000000;
     margin-right: 30px;
 }
+
 .nav-list__link:hover {
     color: #ff8562;
 }
-
 
 @media (max-width: 570px) {
 

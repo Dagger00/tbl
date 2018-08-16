@@ -59,9 +59,11 @@
 .feedback__photo_1 {
     background-image: url("../../img/otziv-1.jpg");
 }
+
 .feedback__photo_2 {
     background-image: url("../../img/otziv-2.jpeg");
 }
+
 .feedback__photo_3 {
     background-image: url("../../img/otziv-3.jpeg");
 }
@@ -120,14 +122,12 @@
     border-bottom: 1px solid;
     border-left: 1px solid;
     border-color: #ff5c33;
-
 }
 
 .feedback__button_right {
     border-top: 1px solid;
     border-right: 1px solid;
     border-color: #ff5c33;
-
 }
 
 .feedback__dots {
@@ -147,16 +147,17 @@
 
 .feedback__dot_active {
     opacity: 1;
-
 }
 
 @media (max-width: 570px) {
     .feedback__inner {
         padding: 0 0 0 0;
     }
+
     .feedback__title {
         margin: 20px 0 0 0;
     }
+
     .feedback__items {
         padding: 0 0 0 0;
     }
