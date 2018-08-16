@@ -188,14 +188,14 @@ var app = new Vue({
             document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Высота подъема автовышки</span> <span>32 - 60 м.</span></li>";
             document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Грузоподъемность корзины</span> <span>200 - 300 кг.</span></li>";
             document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Тип подъёмника автовышки</span> <span>телескопическая</span></li>";
-            document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Тип проходимости</span> <span>колесный</span></li>";
+            document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Тип проходимости</span> <span>шоссейный</span></li>";
             document.getElementsByClassName('description2').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1750 - 4900 руб./ч.</span></li>";
 
             document.getElementsByClassName('description3').item(0).innerHTML = "<li class=\"description__item\"><span>Боковой вылет стрелы</span> <span>8 - 14 м.</span></li>";
             document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Высота подъема автовышки</span> <span>8 - 28 м.</span></li>";
             document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Грузоподъемность корзины</span> <span>100 - 200 кг.</span></li>";
             document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Тип подъёмника автовышки</span> <span>телескопическая</span></li>";
-            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Тип проходимости</span> <span>колесный</span></li>";
+            document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Тип проходимости</span> <span>шоссейный</span></li>";
             document.getElementsByClassName('description3').item(0).innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1100 - 1500 руб./ч.</span></li>";
 
             document.getElementsByClassName('conditions__title').item(0).innerHTML = "Автовышка вездеход";
