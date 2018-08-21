@@ -1,3 +1,16 @@
+@import "normalize.css";
+@import "conditions/conditions.css";
+@import "contacts/contacts.css";
+@import "container/container.css";
+@import "feedback/feedback.css";
+@import "footer/footer.css";
+@import "header/header.css";
+@import "how/how.css";
+@import "main-offer/main-offer.css";
+@import "map/map.css";
+@import "offer/offer.css";
+@import "why/why.css";
+
 body {
     font-family: 'Roboto', sans-serif;
 }
