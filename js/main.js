@@ -23,7 +23,7 @@ var app = new Vue({
     },
     created: function () {
         if (location.href.includes('ekskavator')) {
-            this.offerTitle = 'Экскаватор на вашем объекте уже сегодня!';
+            this.offerTitle = 'Доставим экскаватор на объект в течение 3 часов по Москве!';
             this.mainOffer = 'Нужен экскаватор?';
             document.getElementsByClassName('conditions__image_num_1').item(0).style.backgroundImage = "url('img/ekskavator/ekskavator1.jpg')";
             document.getElementsByClassName('conditions__image_num_2').item(0).style.backgroundImage = "url('img/ekskavator/ekskavator2.jpg')";
@@ -63,7 +63,7 @@ var app = new Vue({
         }
 
         if (location.href.includes('kran-manipulator')) {
-            this.offerTitle = 'Кран-манипулятор на вашем объекте уже сегодня!';
+            this.offerTitle = 'Доставим кран-манипулятор на объект в течение 3 часов по Москве!';
             this.mainOffer = 'Нужен кран-манипулятор?';
             document.getElementsByClassName('conditions__image_num_1').item(0).style.backgroundImage = "url('img/kran-manipulator/kran-manipulyator1-1.jpg')";
             document.getElementsByClassName('conditions__image_num_2').item(0).style.backgroundImage = "url('img/kran-manipulator/kran-manipulyator2.jpg')";
@@ -106,7 +106,7 @@ var app = new Vue({
         }
 
         if (location.href.includes('avtokran')) {
-            this.offerTitle = 'Автокран на вашем объекте уже сегодня!';
+            this.offerTitle = 'Доставим автокран на объект в течение 3 часов по Москве!';
             this.mainOffer = 'Нужен автокран?';
             document.getElementsByClassName('conditions__image_num_1').item(0).style.backgroundImage = "url('img/avtokran/avtokran2.jpg')";
             document.getElementsByClassName('conditions__image_num_2').item(0).style.backgroundImage = "url('img/avtokran/avtokran3.jpg')";
@@ -167,7 +167,7 @@ var app = new Vue({
         }
 
         if (location.href.includes('avtovishka')) {
-            this.offerTitle = 'Автовышка на вашем объекте уже сегодня!';
+            this.offerTitle = 'Доставим автовышка на объект в течение 3 часов по Москве!';
             this.mainOffer = 'Нужна автовышка?';
             document.getElementsByClassName('conditions__image_num_1').item(0).style.backgroundImage = "url('img/avtovishka/avtovyshka-1.jpg')";
             document.getElementsByClassName('conditions__image_num_2').item(0).style.backgroundImage = "url('img/avtovishka/avtovyshka-2.jpg')";
@@ -239,7 +239,7 @@ var app = new Vue({
         }
 
         if (location.href.includes('buldozer')) {
-            this.offerTitle = 'Бульдозер на вашем объекте уже сегодня!';
+            this.offerTitle = 'Бульдозер на вашем объекте уже завтра!';
             this.mainOffer = 'Нужен бульдозер?';
             document.getElementsByClassName('conditions__image_num_1').item(0).style.backgroundImage = "url('img/buldozer/buldozer1-1.jpg')";
             document.getElementsByClassName('conditions__image_num_2').item(0).style.backgroundImage = "url('img/buldozer/buldozer2.jpg')";
@@ -274,7 +274,7 @@ var app = new Vue({
         }
 
         if (location.href.includes('katok')) {
-            this.offerTitle = 'Каток на вашем объекте уже сегодня!';
+            this.offerTitle = 'Каток на вашем объекте уже завтра!';
             this.mainOffer = 'Нужен каток?';
             document.getElementsByClassName('conditions__image_num_1').item(0).style.backgroundImage = "url('img/katok/katok1.jpg')";
             document.getElementsByClassName('conditions__image_num_2').item(0).style.backgroundImage = "url('img/katok/katok2.jpg')";
@@ -306,7 +306,7 @@ var app = new Vue({
         }
 
         if (location.href.includes('pogruz4ik')) {
-            this.offerTitle = 'Погрузчик на вашем объекте уже сегодня!';
+            this.offerTitle = 'Доставим погрузчик на объект в течение 3 часов по Москве!';
             this.mainOffer = 'Нужен погрузчик?';
             document.getElementsByClassName('conditions__image_num_1').item(0).style.backgroundImage = "url('img/pogruz4ik/pogruz4ik1.jpg')";
             document.getElementsByClassName('conditions__image_num_2').item(0).style.backgroundImage = "url('img/pogruz4ik/pogruz4ik2.jpg')";
@@ -346,7 +346,7 @@ var app = new Vue({
         }
 
         if (location.href.includes('samosval')) {
-            this.offerTitle = 'Самосвал на вашем объекте уже сегодня!';
+            this.offerTitle = 'Доставим самосвал на объект в течение 3 часов по Москве!';
             this.mainOffer = 'Нужен самосвал?';
             document.getElementsByClassName('conditions__image_num_1').item(0).style.backgroundImage = "url('img/samosval/samosval1.jpg')";
             document.getElementsByClassName('conditions__image_num_2').item(0).style.backgroundImage = "url('img/samosval/samosval123.jpeg')";
