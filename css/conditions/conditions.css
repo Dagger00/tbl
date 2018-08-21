@@ -6,7 +6,7 @@
     justify-content: center;
     flex-wrap: wrap;
     margin: auto;
-    margin-top: 180px;
+    margin-top: 80px;
     padding-bottom: 120px;
 }
 
@@ -24,7 +24,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    /*
     border-radius: 50%;
+    */
 }
 
 .conditions__image.conditions__image_num_1 {
