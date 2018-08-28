@@ -1863,7 +1863,12 @@
         dots[slideIndex - 1].className += " feedback__dot_active";
     }
 </script>
-<link rel="stylesheet" href="https://cdn.envybox.io/widget/cbk.css">
+<script>
+    $(document).ready(function() {
+        $("head").append("<link rel=\"stylesheet\" href=\"https://cdn.envybox.io/widget/cbk.css\">");
+    })
+</script>
+
 <script type="text/javascript" src="https://cdn.envybox.io/widget/cbk.js?cbk_code=295a56957dd8dbd15245e500f78f1d25"
         charset="UTF-8" async></script>
 
