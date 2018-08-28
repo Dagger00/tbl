@@ -1295,11 +1295,12 @@
                 </div>
                 <form class="main-offer__form" action="https://formspree.io/info@tobelease.ru" method="post">
                     <input type="hidden" name="_next" value="https://tobelease.ru/#thankyou"/>
+                    <input type="hidden" name="_subject" value="Заявка с сайта tobelease.ru" />
                     <label>
-                        <input class="contacts__input" data-type="text" placeholder="Иван Иванович">
+                        <input name="name" class="contacts__input" data-type="text" placeholder="Иван Иванович">
                     </label>
                     <label>
-                        <input type="tel" class="contacts__input" datatype="phone" placeholder="+7(777)777-77-77">
+                        <input name="phone" type="tel" class="contacts__input" datatype="phone" placeholder="+7(777)777-77-77">
                     </label>
                     <button class="contacts__button" type="submit">Позвоните мне</button>
                 </form>
@@ -1334,14 +1335,15 @@
                 </div>
                 <form class="contacts__form" action="https://formspree.io/info@tobelease.ru" method="post">
                     <input type="hidden" name="_next" value="https://tobelease.ru/#thankyou"/>
+                    <input type="hidden" name="_subject" value="Заявка с сайта tobelease.ru" />
                     <label>
-                        <input type="text" class="contacts__input" data-type="text" placeholder="Иван Иванович">
+                        <input name="name" class="contacts__input" data-type="text" placeholder="Иван Иванович">
                     </label>
                     <label>
-                        <input type="tel" class="contacts__input" datatype="phone" placeholder="+7(777)777-77-77">
+                        <input name="phone" type="tel" class="contacts__input" datatype="phone" placeholder="+7(777)777-77-77">
                     </label>
                     <label>
-                        <textarea type="text" class="contacts__input contacts__input_textarea"
+                        <textarea name="feedback" type="text" class="contacts__input contacts__input_textarea"
                                   data-type="text"> </textarea>
                     </label>
                     <button class="contacts__button" type="submit">Отправить</button>
