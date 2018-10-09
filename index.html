@@ -594,7 +594,6 @@
 
         .back {
             position: relative;
-
             height: 700px;
         }
 
@@ -875,10 +874,6 @@
             line-height: 1.45;
         }
 
-        .main-offer__description {
-
-        }
-
         .main-offer__description_star {
             margin: 0 0 20px 0;
             align-self: center;
@@ -1052,6 +1047,7 @@
             }
 
         }
+
         .snow-junk-utilization__button.snow-junk-utilization__button_snow:hover {
             background-position: 50% 40%;
         }
@@ -1067,6 +1063,73 @@
             -moz-user-select: none;
             -ms-user-select: none;
             user-select: none;
+        }
+
+        .all-technic__inner {
+            margin: auto;
+            max-width: 1000px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .all-technic__item {
+            margin: 20px;
+        }
+
+        .all-technic__image {
+            cursor: pointer;
+            width: 250px;
+            height: 250px;
+            background-repeat: no-repeat;
+            background-image: url("img/ico.jpg");
+        }
+
+        .all-technic__image_1 {
+            background-position: -203px -218px;
+        }
+
+        .all-technic__image_2 {
+            background-position: -1381px -218px;
+        }
+
+        .all-technic__image_3 {
+            background-position: -498px -528px;
+        }
+
+        .all-technic__image_4 {
+            background-position: -792px -528px;
+        }
+
+        .all-technic__image_5 {
+            background-position: -1381px -528px;
+        }
+
+        .all-technic__image_6 {
+            background-position: -1381px -848px;
+        }
+
+        .all-technic__image_7 {
+            background-position: -1087px -848px;
+        }
+
+        .all-technic__image_8 {
+            background-position: -792px -848px;
+        }
+
+        .all-technic__image_9 {
+            background-position: -498px -848px;
+        }
+
+        .all-technic__title {
+            color: #ff8562;
+            margin-top: 5px;
+            text-align: center;
+            font-size: 28px;
+            text-decoration: none;
+        }
+
+        .all-technic__link {
         }
     </style>
     <style>
@@ -1134,9 +1197,44 @@
         </div>
     </section>
 
-    <section class=" all-technic" id="all-technic">
+    <section class="all-technic" id="all-technic" style="display: none">
         <div class="all-technic__inner">
-
+            <div class="all-technic__item">
+                <a href="?avtokran" class="all-technik__link"><div class="all-technic__image all-technic__image_1"></div></a>
+                <a href="?avtokran" class="all-technic__link"><h3 class="all-technic__title">Автокран</h3></a>
+            </div>
+            <div class="all-technic__item">
+                <a href="?avtovishka" class="all-technik__link"><div class="all-technic__image all-technic__image_2"></div></a>
+                <a href="?avtovishka" class="all-technic__link"><h3 class="all-technic__title">Автовышка</h3></a>
+            </div>
+            <div class="all-technic__item">
+                <a href="?ekskavator" class="all-technik__link"><div class="all-technic__image all-technic__image_3"></div></a>
+                <a href="?ekskavator" class="all-technic__link"><h3 class="all-technic__title">Экскаватор</h3></a>
+            </div>
+            <div class="all-technic__item">
+                <a href="?katok" class="all-technik__link"><div class="all-technic__image all-technic__image_4"></div></a>
+                <a href="?katok" class="all-technic__link"><h3 class="all-technic__title">Каток</h3></a>
+            </div>
+            <div class="all-technic__item">
+                <a href="?traktor" class="all-technik__link"><div class="all-technic__image all-technic__image_5"></div></a>
+                <a href="?traktor" class="all-technic__link"><h3 class="all-technic__title">Трактор</h3></a>
+            </div>
+            <div class="all-technic__item">
+                <a href="?kran-manipulator" class="all-technik__link"><div class="all-technic__image all-technic__image_6"></div></a>
+                <a href="?kran-manipulator" class="all-technic__link"><h3 class="all-technic__title">Кран-манипулятор</h3></a>
+            </div>
+            <div class="all-technic__item">
+                <a href="?bash-kran" class="all-technik__link"><div class="all-technic__image all-technic__image_7"></div></a>
+                <a href="?bash-kran" class="all-technic__link"><h3 class="all-technic__title">Башенный кран</h3></a>
+            </div>
+            <div class="all-technic__item">
+                <a href="?greyder" class="all-technik__link"><div class="all-technic__image all-technic__image_8"></div></a>
+                <a href="?greyder" class="all-technic__link"><h3 class="all-technic__title">Грейдер</h3></a>
+            </div>
+            <div class="all-technic__item">
+                <a href="?samosval" class="all-technik__link"><div class="all-technic__image all-technic__image_9"></div></a>
+                <a href="?samosval" class="all-technic__link"><h3 class="all-technic__title">Самосвал</h3></a>
+            </div>
         </div>
     </section>
 
@@ -4661,8 +4759,7 @@
                 title.item(0).innerHTML = "Трактор";
                 title.item(1).innerHTML = "Трактор";
                 title.item(2).innerHTML = "Трактор";
-            }else
-            if (location.href.includes('ekskavator')) {
+            } else if (location.href.includes('ekskavator')) {
                 this.offerTitle = 'Доставим экскаватор на объект в течение 3 часов по Москве!';
                 this.mainOffer = 'Нужен экскаватор?';
                 document.getElementsByClassName('conditions__image_num_1').item(0).style.backgroundImage = "url('img/ekskavator/ekskavator1.jpg')";
@@ -4805,7 +4902,7 @@
                 title.item(4).innerHTML = "Автокран";
                 title.item(5).innerHTML = "Автокран";
             } else if (location.href.includes('avtovishka')) {
-                this.offerTitle = 'Доставим автовышка на объект в течение 3 часов по Москве!';
+                this.offerTitle = 'Доставим автовышку на объект в течение 3 часов по Москве!';
                 this.mainOffer = 'Нужна автовышка?';
                 document.getElementsByClassName('conditions__image_num_1').item(0).style.backgroundImage = "url('img/avtovishka/avtovyshka-1.jpg')";
                 document.getElementsByClassName('conditions__image_num_2').item(0).style.backgroundImage = "url('img/avtovishka/avtovyshka-2.jpg')";
@@ -5008,8 +5105,44 @@
                 title.item(0).innerHTML = "Самосвал";
                 title.item(1).innerHTML = "Самосвал Вездеход";
                 title.item(2).innerHTML = "Самосвал";
+            }else if (location.href.includes('greyder')) {
+                this.offerTitle = 'Доставим грейдер на объект в течение 3 часов по Москве!';
+                this.mainOffer = 'Нужен грейдер?';
+                document.getElementsByClassName('conditions__image_num_1').item(0).style.backgroundImage = "url('img/greyder/gr1.jpeg')";
+                document.getElementsByClassName('conditions__image_num_2').item(0).style.backgroundImage = "url('img/greyder/gr2.jpg')";
+                document.getElementsByClassName('conditions__image_num_3').item(0).style.backgroundImage = "url('img/greyder/gr3.JPG')";
+
+                document.getElementsByClassName('image1').item(0).src = "img/greyder/gr1.jpeg";
+                document.getElementsByClassName('image2').item(0).src = "img/greyder/gr2.jpg";
+                document.getElementsByClassName('image3').item(0).src = "img/img/greyder/gr3.JPG";
+
+                d1.innerHTML = "<li class=\"description__item\"><span>Высота кузова</span> <span>1,5 - 3 м.</span></li>";
+                d1.innerHTML += "<li class=\"description__item\"><span>Грузоподъемность кузова</span> <span>10 - 20 т.</span></li>";
+                d1.innerHTML += "<li class=\"description__item\"><span>Длина кузова</span> <span>5 - 8 м.</span></li>";
+                d1.innerHTML += "<li class=\"description__item\"><span>Объём кузова</span> <span>8 - 25 м3</span></li>";
+                d1.innerHTML += "<li class=\"description__item\"><span>Ширина кузова</span> <span>2 - 3 м.</span></li>";
+                d1.innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>900 - 1500 руб./ч.</span></li>";
+
+                d2.innerHTML = "<li class=\"description__item\"><span>Высота кузова</span> <span>1,5 - 3 м.</span></li>";
+                d2.innerHTML += "<li class=\"description__item\"><span>Грузоподъемность кузова</span> <span>10 - 20 т.</span></li>";
+                d2.innerHTML += "<li class=\"description__item\"><span>Длина кузова</span> <span>5 - 8 м.</span></li>";
+                d2.innerHTML += "<li class=\"description__item\"><span>Объём кузова</span> <span>8 - 25 м3</span></li>";
+                d2.innerHTML += "<li class=\"description__item\"><span>Ширина кузова</span> <span>2 - 3 м.</span></li>";
+                d2.innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1250 - 1600 руб./ч.</span></li>";
+
+                d3.innerHTML = "<li class=\"description__item\"><span>Высота кузова</span> <span>2 - 3 м.</span></li>";
+                d3.innerHTML += "<li class=\"description__item\"><span>Грузоподъемность кузова</span> <span>25 - 40 т.</span></li>";
+                d3.innerHTML += "<li class=\"description__item\"><span>Длина кузова</span> <span>8 м.</span></li>";
+                d3.innerHTML += "<li class=\"description__item\"><span>Объём кузова</span> <span>25 - 40 м3</span></li>";
+                d3.innerHTML += "<li class=\"description__item\"><span>Ширина кузова</span> <span>3 м.</span></li>";
+                d3.innerHTML += "<li class=\"description__item\"><span>Цена</span> <span>1500 - 1900 руб./ч.</span></li>";
+
+                title.item(0).innerHTML = "Грейдер";
+                title.item(1).innerHTML = "Грейдер";
+                title.item(2).innerHTML = "Грейдер";
             } else {
                 document.getElementById('snow-junk-utilization').style.display = 'flex';
+                document.getElementById('all-technic').style.display = 'flex';
                 document.getElementById('conditions').style.display = 'none';
             }
         }
@@ -5049,20 +5182,22 @@
     })(document, window, "yandex_metrika_callbacks2");
 
     window.onload = function () {
-        document.getElementsByClassName('contacts__button')[0].click = yaCounter50054329.reachGoal('777');
+        document.getElementsByClassName('contacts__button')[0].onclick = yaCounter50054329.reachGoal('777');
         let phones = document.getElementsByClassName('main-offer__phone');
-        phones[0].click = yaCounter50054329.reachGoal('888');
-        phones[1].click = yaCounter50054329.reachGoal('888');
-        phones[2].click = yaCounter50054329.reachGoal('888');
+        phones[0].onclick = yaCounter50054329.reachGoal('888');
+        phones[1].onclick = yaCounter50054329.reachGoal('888');
+        phones[2].onclick = yaCounter50054329.reachGoal('888');
     }
 </script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124419266-1"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
+
     function gtag() {
         dataLayer.push(arguments);
     }
+
     gtag('js', new Date());
     gtag('config', 'UA-124419266-1');
 </script>
@@ -5097,7 +5232,8 @@
             }
         }
     }
-    function fadeIn(el, display){
+
+    function fadeIn(el, display) {
         el.style.opacity = 0;
         el.style.display = display || "block";
 
@@ -5144,6 +5280,7 @@
 <script>
     document.head.innerHTML += "<link rel=\"stylesheet\" href=\"https://cdn.envybox.io/widget/cbk.css\">";
 </script>
-<script type="text/javascript" src="https://cdn.envybox.io/widget/cbk.js?cbk_code=295a56957dd8dbd15245e500f78f1d25" charset="UTF-8" async></script>
+<script type="text/javascript" src="https://cdn.envybox.io/widget/cbk.js?cbk_code=295a56957dd8dbd15245e500f78f1d25"
+        charset="UTF-8" async></script>
 </body>
 </html>
