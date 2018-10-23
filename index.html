@@ -4703,7 +4703,7 @@
         el: "#app",
         data: {
             offerTitle: "Аренда спецтехники Москва и Область",
-            mainOffer: "Нужен кран-манипулятор?",
+            mainOffer: "Нужна спецтехника?",
             feedback: {
                 f1: {
                     text: 'Не ожидал, что в такие короткие сроки можно организовать поставку техники к себе на объект',
@@ -5282,10 +5282,11 @@
         dots[slideIndex - 1].className += " feedback__dot_active";
     }
 </script>
-<script>
-    document.head.innerHTML += "<link rel=\"stylesheet\" href=\"https://cdn.envybox.io/widget/cbk.css\">";
+<script data-skip-moving="true">
+  (function(w,d,u){
+    var s=d.createElement('script');s.async=1;s.src=u+'?'+(Date.now()/60000|0);
+    var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+  })(window,document,'https://cdn.bitrix24.ru/b8514021/crm/site_button/loader_1_pem1dx.js');
 </script>
-<script type="text/javascript" src="https://cdn.envybox.io/widget/cbk.js?cbk_code=295a56957dd8dbd15245e500f78f1d25"
-        charset="UTF-8" async></script>
 </body>
 </html>
