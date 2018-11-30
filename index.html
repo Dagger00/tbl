@@ -241,9 +241,26 @@
 
         @media (max-width: 570px) {
 
+            .header__inner {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+
+            .logo {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
             .header {
                 font-size: 18px;
                 margin: auto;
+            }
+
+            .nav-list {
+                margin-bottom: 0;
             }
 
             .nav-list__link {
@@ -308,6 +325,7 @@
 
             .offer__inner {
                 margin-left: 5%;
+                margin-top: 10px;
             }
 
             .offer {
@@ -4730,7 +4748,7 @@
         },
         methods: {
             snow: function (event) {
-                this.mainOffer = 'Нужна уборка снега?';
+                this.mainOffer = 'Вам необходимо убрать снег?';
             },
             junk: function (event) {
                 this.mainOffer = 'Нужна утилизация и вывоз мусора?';
